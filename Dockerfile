@@ -39,4 +39,4 @@ USER nextjs
 EXPOSE 3000
 
 # Start the application
-CMD ["npx", "nx", "run", "connect-academy:serve-static"]
+CMD ["npx", "nx", "run", "connect-academy:start"]
