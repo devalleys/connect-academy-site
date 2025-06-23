@@ -26,10 +26,7 @@ RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
 # Copy built application from builder stage
-COPY --from=builder /app/apps/connect-academy ./apps/connect-academy
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/package.json ./package.json
-COPY --from=builder /app/nx.json ./nx.json
+COPY --from=builder /app ./ 
 
 # Change ownership to nextjs user
 RUN chown -R nextjs:nodejs /app
