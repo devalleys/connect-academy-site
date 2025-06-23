@@ -40,4 +40,4 @@ USER nextjs
 EXPOSE 3000
 
 # Start the application
-CMD ["npx", "next", "start"]
+CMD ["npx", "nx" "dev", "connect-academy"]
