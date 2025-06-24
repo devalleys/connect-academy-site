@@ -2,7 +2,11 @@
   "name": "@connect-academy-site/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:connect-academy": "nx run connect-academy:dev",
+    "build:connect-academy": "nx run connect-academy:build",
+    "serve-build:connect-academy": "nx run connect-academy:serve"
+  },
   "private": true,
   "dependencies": {
     "next": "~15.2.4",
