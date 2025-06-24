@@ -29,5 +29,5 @@ jobs:
         run: yarn install
 
       - name: Build Connect Academy
-        run: yarn build:connect-academy
+        run: yarn build:connect-academy --skip-nx-cache
 
