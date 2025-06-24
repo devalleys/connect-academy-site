@@ -1,7 +1,7 @@
 export default function Index() {
   return (
     <div>
-      <p>this is home</p>
+      <p>this is services</p>
     </div>
   );
 }
