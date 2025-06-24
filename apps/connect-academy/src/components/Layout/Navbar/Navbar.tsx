@@ -19,7 +19,7 @@ export const Navbar: React.FC = () => {
           </div>
           <div className="flex items-center">
             <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4 bg-gray-200 rounded-3xl px-3 py-2">
+              <div className="ml-10 flex items-baseline space-x-4 bg-gray-200 rounded-3xl px-3 py-1">
                 <Link
                   href="/"
                   className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
