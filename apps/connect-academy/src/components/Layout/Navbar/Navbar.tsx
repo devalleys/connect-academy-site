@@ -4,13 +4,13 @@ import React from 'react';
 
 export const Navbar: React.FC = () => {
   return (
-    <nav className="bg-white">
+    <nav className="bg-transparent fixed top-0 left-0 w-full z-50 transition-all duration-500 backdrop-blur-lg shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-24">
+        <div className="flex justify-between h-28">
           <div className="flex items-center">
-            <Link href="/" className="relative h-[60px] w-[200px]">
+            <Link href="/">
               <Image
-                src={'/connect_academy_logo.png'}
+                src={'/connect_academy_logo_white_outline.png'}
                 alt="connect-academy-logo"
                 width={150}
                 height={200}
