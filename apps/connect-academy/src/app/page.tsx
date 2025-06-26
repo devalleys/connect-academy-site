@@ -3,7 +3,7 @@ export default function Index() {
     <div className="pt-28 flex flex-col items-start justify-start min-h-screen">
       <div className="max-w-7xl mx-auto">
         <div className="h-fit flex-col items-start justify-start">
-          <div className="flex flex-row items-center justify-start gap-12">
+          <div className="flex flex-col items-center justify-start md:flex-row">
             <video
               className="inset-0 w-full h-[700px] object-cover"
               autoPlay
@@ -13,7 +13,7 @@ export default function Index() {
             >
               <source src="/home/empower_your_brand.mp4" type="video/mp4" />
             </video>
-            <h1 className="text-yellow-600 text-7xl font-bold text-left">
+            <h1 className="text-yellow-600 text-7xl font-bold text-left pl-12 pt-12">
               Where your Success Journey Begins
             </h1>
           </div>
