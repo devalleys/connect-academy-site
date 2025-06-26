@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start:connect-academy": "nx run connect-academy:dev",
-    "build:connect-academy": "nx run connect-academy:build",
+    "build:connect-academy": "nx run connect-academy:build --skip-nx-cache",
     "serve-build:connect-academy": "nx run connect-academy:serve"
   },
   "private": true,
