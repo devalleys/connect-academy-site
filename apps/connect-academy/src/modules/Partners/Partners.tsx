@@ -19,7 +19,7 @@ export const Partners: React.FC = () => {
       {/* Radial gradient overlay for the elliptical effect */}
       <div className="absolute inset-0 bg-gradient-ellipse from-transparent via-slate-800/50 to-black/80 w-full text-center p-24">
         <div className="max-w-7xl mx-auto flex flex-col items-center justify-center gap-12">
-          <p className="text-2xl font-semibold text-white">Trusted By:</p>
+          <p className="text-4xl font-semibold text-white">Trusted By:</p>
 
           {/* Partner logos sliding animation */}
           <div className="w-full overflow-hidden">
@@ -52,14 +52,14 @@ export const Partners: React.FC = () => {
           </div>
 
           <div>
-            <p className="text-3xl font-bold text-white text-left">
+            <p className="text-4xl font-bold text-white text-left">
               The Platform That Drives Digital Success:
             </p>
             <p className="text-4xl font-bold text-yellow-600">
               Marketing Intelligence
             </p>
           </div>
-          <p className="text-2xl font-semibold text-white">
+          <p className="text-4xl font-semibold text-white">
             An AI-powered platform built to streamline strategy, track
             performance, and accelerate brand growth—empowering businesses to
             unlock their full potential, scale smarter, and achieve measurable
