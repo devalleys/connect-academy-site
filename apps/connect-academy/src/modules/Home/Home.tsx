@@ -19,7 +19,7 @@ export const Home: React.FC = () => {
           </h1>
         </div>
 
-        <p className="text-2xl text-center my-12">
+        <p className="text-3xl font-semibold text-center my-16">
           We’re redefining digital growth for purpose-driven brands and
           professionals—combining human creativity with an AI-powered approach
           in web design, digital marketing, and comprehensive training.

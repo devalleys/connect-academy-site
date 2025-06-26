@@ -1,5 +1,6 @@
 import './global.css';
 import { Footer, MobileNavigationDrawer, Navbar } from '@/components';
+import React from 'react';
 
 export const metadata = {
   title: 'Connect Academy',
@@ -35,12 +36,34 @@ efficiently.`,
     'website development',
   ],
   authors: [{ name: 'Renzo' }],
+  viewport: 'width=device-width, initial-scale=1',
+  robots: 'index, follow',
+  metadataBase: new URL('https://connect-academy.com'),
   openGraph: {
     title: 'Connect Academy',
-    description: `We’re redefining digital growth for purpose-driven brands and
+    description: `We're redefining digital growth for purpose-driven brands and
 professionals—combining human creativity with an AI-powered
 approach in web design, digital marketing, and comprehensive training.`,
-    images: [],
+    url: 'https://connect-academy.com',
+    siteName: 'Connect Academy',
+    type: 'website',
+    locale: 'en_US',
+    images: [
+      {
+        url: '/connect_academy_logo_white_outline.png',
+        width: 1200,
+        height: 630,
+        alt: 'Connect Academy',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Connect Academy',
+    description: `We're redefining digital growth for purpose-driven brands and
+professionals—combining human creativity with an AI-powered
+approach in web design, digital marketing, and comprehensive training.`,
+    images: ['/connect_academy_logo_white_outline.png'],
   },
 };
 

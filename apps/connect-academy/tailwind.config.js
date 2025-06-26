@@ -17,7 +17,16 @@ module.exports = {
     //     ...createGlobPatternsForDependencies(__dirname)
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Poppins'],
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(circle, var(--tw-gradient-stops))',
+        'gradient-ellipse':
+          'radial-gradient(ellipse, var(--tw-gradient-stops))',
+      },
+    },
   },
   plugins: [],
 };
