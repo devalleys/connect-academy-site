@@ -1,5 +1,5 @@
 import './global.css';
-import { Footer, Navbar } from '@/components';
+import { Footer, MobileNavigationDrawer, Navbar } from '@/components';
 
 export const metadata = {
   title: 'Connect Academy',
@@ -54,6 +54,8 @@ export default function RootLayout({
       <body className="flex flex-col min-h-screen scroll-smooth">
         <Navbar />
         <main className="flex-grow">{children}</main>
+
+        <MobileNavigationDrawer />
         <Footer />
       </body>
     </html>
