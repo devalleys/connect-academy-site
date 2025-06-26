@@ -15,9 +15,10 @@ export const Partners: React.FC = () => {
   ];
 
   return (
-    <div className="w-full h-[800px] bg-gradient-to-b from-slate-900 via-blue-950 to-black relative overflow-hidden">
+    <div className="w-full h-auto py-16 sm:py-20 lg:py-24 px-6 sm:px-12 lg:px-24 bg-gradient-to-b from-slate-900 via-blue-950 to-black relative overflow-hidden">
       {/* Radial gradient overlay for the elliptical effect */}
-      <div className="absolute inset-0 bg-gradient-ellipse from-transparent via-slate-800/50 to-black/80 w-full text-center p-24">
+      <div className="absolute inset-0 bg-gradient-ellipse from-transparent via-slate-800/50 to-black/80"></div>
+      <div className="relative z-10 w-full text-center">
         <div className="max-w-7xl mx-auto flex flex-col items-center justify-center gap-12">
           <p className="text-4xl font-semibold text-white">Trusted By:</p>
 
