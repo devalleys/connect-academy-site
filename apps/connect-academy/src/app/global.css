@@ -137,3 +137,32 @@ body {
 .animate-slide {
   animation: slide 30s linear infinite;
 }
+
+.running-logo-with-mask-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 200px;
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(0, 0, 0, 0.1) 5%,
+    rgba(0, 0, 0, 0.5) 8%,
+    black 12%,
+    black 88%,
+    rgba(0, 0, 0, 0.5) 92%,
+    rgba(0, 0, 0, 0.1) 95%,
+    transparent 100%
+  );
+  mask: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(0, 0, 0, 0.1) 5%,
+    rgba(0, 0, 0, 0.5) 8%,
+    black 12%,
+    black 88%,
+    rgba(0, 0, 0, 0.5) 92%,
+    rgba(0, 0, 0, 0.1) 95%,
+    transparent 100%
+  );
+}
