@@ -7,14 +7,14 @@ export const Partners: React.FC = () => {
       <div className="absolute inset-0 bg-gradient-ellipse from-transparent via-slate-800/50 to-black/80"></div>
       <div className="relative z-10 w-full text-center">
         <div className="max-w-7xl mx-auto flex flex-col items-center justify-center gap-12">
-          <p className="text-3xl font-medium text-white">Trusted By:</p>
+          <p className="text-4xl font-medium text-white">Trusted By:</p>
           <RunningLogo />
 
           <div>
-            <p className="text-4xl font-black text-white w-[400px]">
+            <p className="text-4xl font-medium text-white w-[400px]">
               The Platform That Drives Digital Success:
             </p>
-            <p className="text-4xl font-black text-yellow-600">
+            <p className="text-4xl font-medium text-yellow-600">
               Marketing Intelligence
             </p>
           </div>

@@ -14,12 +14,12 @@ export const Home: React.FC = () => {
           >
             <source src="/home/empower_your_brand.mp4" type="video/mp4" />
           </video>
-          <h1 className="text-yellow-600 text-7xl font-bold text-left pl-12 pt-12">
+          <h1 className="text-yellow-600 text-8xl font-medium text-left pl-12 pt-12">
             Where your Success Journey Begins
           </h1>
         </div>
 
-        <p className="text-3xl font-semibold text-center my-16">
+        <p className="text-4xl font-medium text-center my-16">
           We’re redefining digital growth for purpose-driven brands and
           professionals—combining human creativity with an AI-powered approach
           in web design, digital marketing, and comprehensive training.

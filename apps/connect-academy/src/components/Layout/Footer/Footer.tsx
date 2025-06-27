@@ -1,96 +1,20 @@
-import Link from 'next/link';
-import Image from 'next/image';
+import { QuickNavigation, SocialMediaNavigation } from './components';
 
 export const Footer: React.FC = () => {
   return (
     <footer className="bg-sky-50 text-black-900">
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="flex flex-row items-start justify-start gap-12">
+          <SocialMediaNavigation />
+          <div className="flex-grow"></div>
+          <QuickNavigation />
           <div>
-            <Link href="/" className="relative h-[60px] w-[200px]">
-              <Image
-                src={'/connect_academy_logo.png'}
-                alt="connect-academy-logo"
-                width={150}
-                height={200}
-              />
-            </Link>
-            <p className="text-black-300">
-              Empowering students through interactive learning and expert
-              guidance.
-            </p>
+            <h3 className="text-lg font-semibold mb-4">General Inquiries</h3>
+            <p className="font-medium">hello@connect-academy.com</p>
           </div>
           <div>
-            <h3 className="text-lg font-semibold mb-4">Navigation</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/" className="text-black-300 hover:text-sky-600">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/about-us"
-                  className="text-black-300 hover:text-sky-600"
-                >
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/about-us"
-                  className="text-black-300 hover:text-sky-600"
-                >
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/training-courses"
-                  className="text-black-300 hover:text-sky-600"
-                >
-                  Training & Courses
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/connect"
-                  className="text-black-300 hover:text-sky-600"
-                >
-                  Connect
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/events"
-                  className="text-black-300 hover:text-sky-600"
-                >
-                  Events
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/blog"
-                  className="text-black-300 hover:text-sky-600"
-                >
-                  Blog
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
-            <div className="flex space-x-4">
-              <a href="#" className="text-black-300 hover:text-sky-600">
-                Twitter
-              </a>
-              <a href="#" className="text-black-300 hover:text-sky-600">
-                LinkedIn
-              </a>
-              <a href="#" className="text-black-300 hover:text-sky-600">
-                Facebook
-              </a>
-            </div>
+            <h3 className="text-lg font-semibold mb-4">Address</h3>
+            <p className="font-medium">Davao City, 8000, Philippines</p>
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-black-300">
