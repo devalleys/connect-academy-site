@@ -1,4 +1,4 @@
-import { Founders, Home, Partners } from '@/modules';
+import { Feedback, Founders, Home, Partners } from '@/modules';
 
 export default function Index() {
   return (
@@ -6,6 +6,7 @@ export default function Index() {
       <Home />
       <Partners />
       <Founders />
+      <Feedback />
     </div>
   );
 }
