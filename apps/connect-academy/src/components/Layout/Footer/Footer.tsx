@@ -4,7 +4,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="bg-sky-50 text-black-900">
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
-        <div className="flex flex-row flex-wrap items-start justify-start gap-12">
+        <div className="flex flex-col flex-wrap items-start justify-start gap-12 xl:flex-row">
           <SocialMediaNavigation />
           <div className="flex-grow"></div>
           <QuickNavigation />
