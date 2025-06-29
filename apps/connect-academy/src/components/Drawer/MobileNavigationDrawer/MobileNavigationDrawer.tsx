@@ -40,10 +40,7 @@ export const MobileNavigationDrawer: React.FC = () => {
 
   return (
     <div className={`md:hidden ${isDrawerOpen ? 'block' : 'hidden'}`}>
-      <div
-        className="fixed inset-0 z-[100] bg-black bg-opacity-50"
-        onClick={closeDrawer}
-      >
+      <div className="fixed inset-0 z-[100] bg-black bg-opacity-50">
         <div
           className={`fixed top-0 right-0 h-full w-64 bg-white shadow-xl transform transition-transform duration-500 ease-in-out z-[101] ${
             isDrawerOpen ? 'translate-x-0' : 'translate-x-full'
@@ -72,7 +69,7 @@ export const MobileNavigationDrawer: React.FC = () => {
               </svg>
             </button>
           </div>
-          <nav className="mt-4 px-4 space-y-2">
+          <nav className="mt-4 px-4 space-y-2 overflow-y-auto max-h-[calc(100vh-80px)]">
             <Link
               href="/"
               onClick={closeDrawer}
