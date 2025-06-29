@@ -1,4 +1,4 @@
-import { ChooseUsGrid, ChooseUsGridProps } from './components';
+import { ChooseUsGrid, ChooseUsGridProps, LocalServices } from './components';
 
 export const Services: React.FC = () => {
   const images: ChooseUsGridProps[] = [
@@ -57,20 +57,28 @@ export const Services: React.FC = () => {
   ];
 
   return (
-    <div className="bg-blue-950 py-12 sm:py-16 md:py-24 w-full ">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="text-left mb-8 sm:mb-12 md:mb-16">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-yellow-400 mb-4 sm:mb-6 md:mb-8">
-            {`Why Choose Us?`}
-          </h1>
-        </div>
+    <>
+      <div className="bg-blue-950 py-12 sm:py-16 md:py-24 w-full ">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="text-left mb-8 sm:mb-12 md:mb-16">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-yellow-400 mb-4 sm:mb-6 md:mb-8">
+              {`Why Choose Us?`}
+            </h1>
+          </div>
 
-        <div className="grid grid-cols-5 gap-4">
-          {images.map((image, index) => (
-            <ChooseUsGrid key={index} {...image} />
-          ))}
+          <div className="grid grid-cols-5 gap-4">
+            {images.map((image, index) => (
+              <ChooseUsGrid key={index} {...image} />
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+
+      <div className="bg-black py-12 sm:py-16 md:py-24 w-full ">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <LocalServices />
+        </div>
+      </div>
+    </>
   );
 };
