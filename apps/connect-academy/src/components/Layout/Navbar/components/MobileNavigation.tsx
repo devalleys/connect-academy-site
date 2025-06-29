@@ -11,15 +11,13 @@ export const MobileNavigation: React.FC = () => {
       <div className="md:hidden">
         <button
           onClick={toggleDrawer}
-          className="inline-flex items-center justify-center p-2 rounded-md text-gray focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+          className="inline-flex items-center justify-center p-2 rounded-md text-black  bg-gray-200/40  backdrop-blur-3xl shadow-lg focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
           aria-expanded="false"
         >
           <span className="sr-only">Open main menu</span>
           {/* Hamburger icon */}
           <svg
-            className={`${
-              isDrawerOpen ? 'hidden' : 'block'
-            } h-6 w-6 [filter:drop-shadow(1px_1px_0px_rgba(255,255,255,0.6))_drop-shadow(-1px_-1px_0px_rgba(255,255,255,0.6))_drop-shadow(1px_-1px_0px_rgba(255,255,255,0.6))_drop-shadow(-1px_1px_0px_rgba(255,255,255,0.6))]`}
+            className={`${isDrawerOpen ? 'hidden' : 'block'} h-6 w-6`}
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -35,9 +33,7 @@ export const MobileNavigation: React.FC = () => {
           </svg>
           {/* Close icon */}
           <svg
-            className={`${
-              isDrawerOpen ? 'block' : 'hidden'
-            } h-6 w-6 [filter:drop-shadow(1px_1px_0px_rgba(255,255,255,0.6))_drop-shadow(-1px_-1px_0px_rgba(255,255,255,0.6))_drop-shadow(1px_-1px_0px_rgba(255,255,255,0.6))_drop-shadow(-1px_1px_0px_rgba(255,255,255,0.6))]`}
+            className={`${isDrawerOpen ? 'block' : 'hidden'} h-6 w-6 `}
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
