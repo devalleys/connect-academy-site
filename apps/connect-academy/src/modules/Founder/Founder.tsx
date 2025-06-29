@@ -40,7 +40,7 @@ export const Founders: React.FC = () => {
                 src="/founders/founder.jpg"
                 alt="Renzo Lopez - Founder of Connect Academy"
                 fill
-                className="object-cover"
+                className="object-cover object-top scale-[1.38]"
                 priority
               />
             </div>

@@ -5,7 +5,7 @@ import { DesktopNavigation, MobileNavigation } from './components';
 
 export const Navbar: React.FC = () => {
   return (
-    <nav className="bg-white fixed top-0 left-0 w-full z-50 transition-all duration-500 backdrop-blur-lg shadow-lg">
+    <nav className="bg-transparent fixed top-0 left-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-28">
           <div className="flex items-center">
